@@ -16,7 +16,7 @@
           "name": "Pacific Northwest Aquatic Monitoring Partnership (PNAMP) static dataset for NFHP Thematic Viewer 201412",
           "description": "This dataset is a static view of available data from the Pacific Northwest Aquatic Monitoring Partnership (PNAMP) Monitoring Site Manager on 201412. The Monitoring Site Manager describes locations of data collection events for various aquatic monitoring programs in the Pacific Northwest. It includes locations for the US Forest Service Aquatic and Riparian Effectiveness Monitoring Program (AREMP), Bonneville Power Administration’s Columbia Habitat Monitoring Program (CHaMP), Oregon Department of Environmental Quality’s (ODEQ) Ambient Water Quality Monitoring Program, the National Rivers and Streams Assessment (NRSA) in Oregon, the US Forest Service PACFISH/INFISH Biological Opinion Effectiveness Monitoring Program (PIBO), and Washington State Department of Ecology’s Watershed Health and Salmon Recovery (WHSR) Monitoring Program. Development of this layer has been sponsored by the Pacific Northwest Aquatic Monitoring Partnership (PNAMP) and is maintained at https://www.monitoringresources.org/Sites/Explorer/Index by Sitka Technology Group.",
           "isEnabled": true,
-          "layers": 0,
+          "layers": "0",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/538747fbe4b0aa26cd7b5422/MapServer",
           "type": "esri-mapServer",
           "id": "538747fbe4b0aa26cd7b5422"
@@ -25,7 +25,7 @@
           "name": "Official Recognized Boundary of Atlantic Coastal Fish Habitat Partnership, 2013",
           "description": "This shapefile is the official boundary of the Atlantic Coastal Fish Habitat Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Atlantic Coastal Fish Habitat Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
           "isEnabled": true,
-          "layers": 0,
+          "layers": "0",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526543e2e4b0d5a9feede1df/MapServer",
           "type": "esri-mapServer",
           "id": "526543e2e4b0d5a9feede1df"
@@ -34,7 +34,7 @@
           "name": "Official Recognized Boundary of Fishers & Farmers Partnership, 2013",
           "description": "This shapefile is the official boundary of the Fishers &amp; Farmers Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Fishers &amp; Farmers Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
           "isEnabled": true,
-          "layers": 0,
+          "layers": "0",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526ac1f1e4b0be4db9fbf2aa/MapServer",
           "type": "esri-mapServer",
           "id": "526ac1f1e4b0be4db9fbf2aa"
@@ -43,7 +43,7 @@
           "name": "Official Recognized Boundary of Eastern Brook Trout Joint Venture, 2013",
           "description": "This shapefile is the official boundary of the Eastern Brook Trout Joint Venture. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Eastern Brook Trout Joint Venture, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
           "isEnabled": true,
-          "layers": 0,
+          "layers": "0",
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e80f56e4b00ae347ff0e7a/MapServer",
           "type": "esri-mapServer",
           "id": "52e80f56e4b00ae347ff0e7a"
