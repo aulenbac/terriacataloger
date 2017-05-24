@@ -9,7 +9,7 @@
   "baseMapName": "Bing Maps Roads",
   "catalog": [
     {
-      "type": "esri-mapServer-group",
+      "type": "group",
       "name": "NFHP 2010 ArcGIS Services",
       "items": [
         {
