@@ -15,21 +15,25 @@
         {
           "type": "esri-mapServer-group",
           "name": "Pacific Northwest Aquatic Monitoring Partnership (PNAMP) static dataset for NFHP Thematic Viewer 201412",
+          "isEnabled": true,
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/538747fbe4b0aa26cd7b5422/MapServer"
         },
         {
           "type": "esri-mapServer-group",
           "name": "Official Recognized Boundary of Atlantic Coastal Fish Habitat Partnership, 2013",
+          "isEnabled": true,
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526543e2e4b0d5a9feede1df/MapServer"
         },
         {
           "type": "esri-mapServer-group",
           "name": "Official Recognized Boundary of Fishers & Farmers Partnership, 2013",
+          "isEnabled": true,
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526ac1f1e4b0be4db9fbf2aa/MapServer"
         },
         {
           "type": "esri-mapServer-group",
           "name": "Official Recognized Boundary of Eastern Brook Trout Joint Venture, 2013",
+          "isEnabled": true,
           "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e80f56e4b00ae347ff0e7a/MapServer"
         },
         {
