@@ -1,12 +1,4 @@
 {
-  "services": [
-    
-  ],
-  "corsDomains": [
-    "sciencebase.gov",
-    "corsproxy.com"
-  ],
-  "baseMapName": "Bing Maps Roads",
   "catalog": [
     {
       "type": "group",
@@ -164,11 +156,20 @@
       "isOpen": true
     }
   ],
+  "corsDomains": [
+    "sciencebase.gov",
+    "corsproxy.com"
+  ],
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
   "homeCamera": {
-    "south": 55,
-    "west": -175,
-    "north": 72,
-    "east": -135
-  },
-  "initialViewerMode": "2d"
+    "lookAt": {
+      "targetLongitude": -98.5795,
+      "targetHeight": 0,
+      "pitch": -90,
+      "range": 1000,
+      "heading": 0,
+      "targetLatitude": 39.8282
+    }
+  }
 }
