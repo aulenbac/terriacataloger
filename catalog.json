@@ -1,1 +1,174 @@
-{"services": [], "corsDomains": ["sciencebase.gov", "corsproxy.com"], "baseMapName": "Bing Maps Roads", "catalog": [{"type": "group", "name": "NFHP 2010", "items": [{"type": "esri-mapServer", "name": "Pacific Northwest Aquatic Monitoring Partnership (PNAMP) static dataset for NFHP Thematic Viewer 201412", "layers": 0, "isEnabled": true, "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/538747fbe4b0aa26cd7b5422/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Atlantic Coastal Fish Habitat Partnership, 2013", "layers": 0, "isEnabled": true, "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526543e2e4b0d5a9feede1df/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Fishers & Farmers Partnership, 2013", "layers": 0, "isEnabled": true, "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526ac1f1e4b0be4db9fbf2aa/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Eastern Brook Trout Joint Venture, 2013", "layers": 0, "isEnabled": true, "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e80f56e4b00ae347ff0e7a/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Hawaii Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e81b82e4b00ae347ff0eaf/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Zones of Pacific Marine and Estuarine Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/5343f5dce4b0cafa1c3dd7ec/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Western Native Trout Initiative, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e824e3e4b00ae347ff0eed/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Great Lakes Basin Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e815ede4b00ae347ff0e92/MapServer"}, {"type": "esri-mapServer", "name": "Bivalvia Subset of Ocean Biogeographic Information System (OBIS) - USA Dataset Collection for NFHP Thematic Viewer 20141202", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/547f5ed9e4b09357f06013f3/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Subregions of Atlantic Coastal Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/534594ace4b0169f5005bc33/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Southeast Alaska Fish Habitat Partnership, 2014", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/53399fc2e4b0db25ad10d2a6/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundaries of Fish Habitat Partnerships of the National Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/53710d71e4b07ccdd78b368e/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Great Plains Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/5241db1ae4b0570e3d457434/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Focus Area of Pacific Marine and Estuarine Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e81e8ee4b00ae347ff0ec3/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Midwest Glacial Lakes Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/5241dbd6e4b0570e3d457443/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of California Fish Passage Forum, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52274bd2e4b01904cf5a81d1/MapServer"}, {"type": "esri-mapServer", "name": "National Fish Habitat Action Plan (NFHAP) 2010 Community Fish Data", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/521519e0e4b06d85e095c50f/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Driftless Area Restoration Effort, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52274d4ce4b01904cf5a81e0/MapServer"}, {"type": "esri-mapServer", "name": "Official Recognized Boundary of Desert Fish Habitat Partnership, 2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52274ef2e4b01904cf5a81f3/MapServer"}, {"type": "esri-mapServer", "name": "Simplified Boundary of Eastern Brook Trout Joint Venture,2013", "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e80fabe4b00ae347ff0e85/MapServer"}], "isOpen": true}], "homeCamera": {"south": 55, "west": -175, "north": 72, "east": -135}, "initialViewerMode": "2d"}
+{
+  "services": [
+    
+  ],
+  "corsDomains": [
+    "sciencebase.gov",
+    "corsproxy.com"
+  ],
+  "baseMapName": "Bing Maps Roads",
+  "catalog": [
+    {
+      "type": "esri-mapServer-group",
+      "name": "NFHP 2010 ArcGIS Services",
+      "items": [
+        {
+          "name": "Pacific Northwest Aquatic Monitoring Partnership (PNAMP) static dataset for NFHP Thematic Viewer 201412",
+          "description": "This dataset is a static view of available data from the Pacific Northwest Aquatic Monitoring Partnership (PNAMP) Monitoring Site Manager on 201412. The Monitoring Site Manager describes locations of data collection events for various aquatic monitoring programs in the Pacific Northwest. It includes locations for the US Forest Service Aquatic and Riparian Effectiveness Monitoring Program (AREMP), Bonneville Power Administration’s Columbia Habitat Monitoring Program (CHaMP), Oregon Department of Environmental Quality’s (ODEQ) Ambient Water Quality Monitoring Program, the National Rivers and Streams Assessment (NRSA) in Oregon, the US Forest Service PACFISH/INFISH Biological Opinion Effectiveness Monitoring Program (PIBO), and Washington State Department of Ecology’s Watershed Health and Salmon Recovery (WHSR) Monitoring Program. Development of this layer has been sponsored by the Pacific Northwest Aquatic Monitoring Partnership (PNAMP) and is maintained at https://www.monitoringresources.org/Sites/Explorer/Index by Sitka Technology Group.",
+          "isEnabled": true,
+          "layers": 0,
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/538747fbe4b0aa26cd7b5422/MapServer",
+          "type": "esri-mapServer",
+          "id": "538747fbe4b0aa26cd7b5422"
+        },
+        {
+          "name": "Official Recognized Boundary of Atlantic Coastal Fish Habitat Partnership, 2013",
+          "description": "This shapefile is the official boundary of the Atlantic Coastal Fish Habitat Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Atlantic Coastal Fish Habitat Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "isEnabled": true,
+          "layers": 0,
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526543e2e4b0d5a9feede1df/MapServer",
+          "type": "esri-mapServer",
+          "id": "526543e2e4b0d5a9feede1df"
+        },
+        {
+          "name": "Official Recognized Boundary of Fishers & Farmers Partnership, 2013",
+          "description": "This shapefile is the official boundary of the Fishers &amp; Farmers Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Fishers &amp; Farmers Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "isEnabled": true,
+          "layers": 0,
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/526ac1f1e4b0be4db9fbf2aa/MapServer",
+          "type": "esri-mapServer",
+          "id": "526ac1f1e4b0be4db9fbf2aa"
+        },
+        {
+          "name": "Official Recognized Boundary of Eastern Brook Trout Joint Venture, 2013",
+          "description": "This shapefile is the official boundary of the Eastern Brook Trout Joint Venture. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Eastern Brook Trout Joint Venture, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "isEnabled": true,
+          "layers": 0,
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e80f56e4b00ae347ff0e7a/MapServer",
+          "type": "esri-mapServer",
+          "id": "52e80f56e4b00ae347ff0e7a"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Hawaii Fish Habitat Partnership, 2013",
+          "description": "This shapefile is the official boundary of the Hawaii Fish Habitat Partnership. The shapefile was developed in 2013 to reflect the boundary as defined by the Hawaii Fish Habitat Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "52e81b82e4b00ae347ff0eaf",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e81b82e4b00ae347ff0eaf/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Zones of Pacific Marine and Estuarine Fish Habitat Partnership, 2013",
+          "description": "This shapefile defines the two distinct zones within the 2013 boundary of the Pacific Marine and Estuarine Fish Habitat Partnership (PMEP), a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership (NFHP). The two zones of the PMEP include the estuarine and marine nearshore complex (PMEP focus area, coastal subregions, and nearshore marine waters) of the states of California, Oregon, and Washington.",
+          "id": "5343f5dce4b0cafa1c3dd7ec",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/5343f5dce4b0cafa1c3dd7ec/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Western Native Trout Initiative, 2013",
+          "description": "This shapefile is the official boundary of the Western Native Trout Initiative. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Western Native Trout Initiative, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "52e824e3e4b00ae347ff0eed",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e824e3e4b00ae347ff0eed/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Great Lakes Basin Fish Habitat Partnership, 2013",
+          "description": "This shapefile is the official boundary of the Great Lakes Basin Fish Habitat Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Southeast Aquatic Resource Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "52e815ede4b00ae347ff0e92",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e815ede4b00ae347ff0e92/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Bivalvia Subset of Ocean Biogeographic Information System (OBIS) - USA Dataset Collection for NFHP Thematic Viewer 20141202",
+          "description": "Species occurrence records of the taxonomic class of Bivalvia in oceans within 1000 kilometers of the United States shoreline. This is a subset of the OBIS-USA dataset where Bivalvia records were queried on December 2, 2014. After initial queries, the remaining data were further queried to retain only samples within 1000 kilometers of the U.S. shoreline. Spatial queries were then used to remove samples overlaying land masses. Data are provided in a geodatabase format, as well as a comma seperated values format. OBIS-USA provides aggregated, interoperable biogeographic data collected primarily from U.S. waters and oceanic regions--the Arctic, the Atlantic and Pacific oceans, the Caribbean Sea, Gulf of Mexico and the Great Lakes. It provides access to datasets from state and federal agencies as well as educational and research institutions. OBIS-USA handles both specimen-based data and survey results. Survey data come from recovered archives and current research activities. The datasets document where and when species were observed or collected, bringing together marine biogeographic data that are spatially, taxonomically, and temporally comprehensive. The public OBIS-USA site (http://www.usgs.gov/obis-usa) provides actual data contents as well as summary data about what is contained in each dataset to assist users in evaluating suitability for use. Current functionality allows the user to locate, view, and aggregate the datasets and FGDC compliant metadata as well as to view and search the taxonomic, geographic, and temporal extent. To promote data interoperability, the data are available in accordance with the marine-focused implementation of the Darwin Core data standard. In addition to basic download functions (tab-delimited), OBIS-USA offers web services for query flexibility and a wide range of output formats, such as kml, NetCDF, MATLAB, json, and graph or map output, to enable diverse types of scientific and geospatial data use and analysis platforms and products. OBIS-USA's two web services (ERDDAP and GeoServer) enable integration of OBIS-USA biogeographic data with other data types, such as seafloor geology, physical oceanography, water chemistry, and climate data. The NOAA Environmental Research Division Data Access Program(ERRDDAP) enables users to query scientific data by flexible parameters and obtain output in many formats. Access can be found at http://www1.usgs.gov/erddap/tabledap/AllMBG.html. OBIS-USA uses the tabledap component of ERDDAP to access Darwin-Core-type tabular spatial data; tabledap is a superset of the OPeNDAP DAP constraint protocol. OBIS-USA offers an ESRI REST Service with access to Darwin-Core-type point data at http://gis1.usgs.gov/arcgis/rest/services/OBISUSA/OBIS_USA_All_Marine_Biogeographic_Records/MapServer/ and an OGC compliant Web Mapping Service (wms) http://gis1.usgs.gov/arcgis/services/OBISUSA/OBIS_USA_All_Marine_Biogeographic_Records/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS. OBIS-USA and collaborators are further deploying the Darwin Core standard to capture richer information, such as absence and abundance, observations on effort, individual tracking, and more advanced biogeography capabilities. Data are accepted into OBIS-USA from the data originator or holder, minimizing the burden on the participant. OBIS-USA works with data providers to understand the best process to transfer the data, review the data prior to their release, gather comprehensive metadata, and then allow public access to this information. Becoming part of the OBIS-USA network is intended to have tangible benefits for participants, for example, freeing the participant from responding to requests for data and alleviating security concerns since users do not directly access the participant's computers.",
+          "id": "547f5ed9e4b09357f06013f3",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/547f5ed9e4b09357f06013f3/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Subregions of Atlantic Coastal Fish Habitat Partnership, 2013",
+          "description": "This shapefile defines the officially recognized subregions of Atlantic Coastal Fish Habitat Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Atlantic Coastal Fish Habitat Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "534594ace4b0169f5005bc33",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/534594ace4b0169f5005bc33/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Southeast Alaska Fish Habitat Partnership, 2014",
+          "description": "This shapefile is the official boundary of the Southeast Alaska Fish Habitat Partnership. The shapefile was developed in 2014 to reflect the boundary as defined by the Southeast Alaska Fish Habitat Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "53399fc2e4b0db25ad10d2a6",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/53399fc2e4b0db25ad10d2a6/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundaries of Fish Habitat Partnerships of the National Fish Habitat Partnership, 2013",
+          "description": "This geodatabase contains the official partnership boundaries of the National Fish Habitat Partnership (NFHP). Several boundaries were originally developed by the United States Fish and Wildlife Service and were updated in 2013 to reflect revisions from the recognized Fish Habitat Partnerships (FHPs) of the National Fish Habitat Partnership. For the remaining FHPs, the boundaries were developed in 2013 to reflect the boundary as defined by the respective partnerships. The geodatabase contains two feature datasets. The 'Boundaries' feature dataset includes official partnership boundaries. The 'Subregions_States' feature dataset includes partnership boundaries along with state and/or subregion boundaries.",
+          "id": "53710d71e4b07ccdd78b368e",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/53710d71e4b07ccdd78b368e/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Great Plains Fish Habitat Partnership, 2013",
+          "description": "This shapefile is the official boundary of the Great Plains Fish Habitat Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Great Plains Fish Habitat Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "5241db1ae4b0570e3d457434",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/5241db1ae4b0570e3d457434/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Focus Area of Pacific Marine and Estuarine Fish Habitat Partnership, 2013",
+          "description": "This shapefile is the official focus area of the Pacific Marine and Estuarine Fish Habitat Partnership (PMEP), a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership (NFHP). The focus area lays within the partnership's larger area of interest or 'geographic scope' within and offshore of the states of California, Oregon, and Washington. The focus area boundary aims to highlight the nearshore marine and estuarine tidal waters.",
+          "id": "52e81e8ee4b00ae347ff0ec3",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e81e8ee4b00ae347ff0ec3/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Midwest Glacial Lakes Partnership, 2013",
+          "description": "This shapefile is the official boundary of the Midwest Glacial Lakes Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Midwest Glacial Lakes Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "5241dbd6e4b0570e3d457443",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/5241dbd6e4b0570e3d457443/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of California Fish Passage Forum, 2013",
+          "description": "This shapefile is the official boundary of the California Fish Passage Forum. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the California Fish Passage Forum, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "52274bd2e4b01904cf5a81d1",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52274bd2e4b01904cf5a81d1/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "National Fish Habitat Action Plan (NFHAP) 2010 Community Fish Data",
+          "description": "This geodatabase contains a comparable set of community fish samples from 12 sources, spanning the conterminous United States. The data were compiled through efforts of Michigan State University for the 2010 National Fish Habitat Action Plan (NFHAP) and with support from the U.S. Fish and Wildlife Service (USFWS) and U.S. Geological Survey (USGS) Aquatic GAP Program. All fish sample locations were verified and linked to flowlines of the National Hydrography Dataset Plus Version 1 (NHDPlusV1) using the COMID identifier. Fish records were provided by the following organizations and agencies: USGS, U.S. Environmental Protection Agency (EPA), Connecticut Department of Environmental Protection, Iowa Department of Natural Resources, Florida Fish and Wildlife Conservation Commission, Kansas Department of Wildlife and Parks, Kentucky Division of Water, Missouri Department of Conservation, New York Department of Environmental Conservation, North Carolina Division of Water Quality, Vermont Fish and Wildlife Department, and Little Tennessee Watershed Association. These datasets met the following criteria: (1) protocols were focused on sampling the entire community; (2) all samples were collected by single-pass electrofishing (3) samples were collected between 1990-2010, (4) samples had sufficient descriptive information to determine location of sample.\n<br /> \n<br /> Please use the following citation: Esselman, P., D.M. Infante, D. Wieferich, A. Cooper, L. Wang, W. Taylor, R. Tingley, D. Thornbrugh, J. Ross, and J. Fenner. (May 2013) National Fish Habitat Action Plan (NFHAP) 2010 Community Fish Data. National Fish Habitat Partnership Data System. http://dx.doi.org/doi:10.5066/F7QN64RG",
+          "id": "521519e0e4b06d85e095c50f",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/521519e0e4b06d85e095c50f/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Driftless Area Restoration Effort, 2013",
+          "description": "This shapefile is the official boundary of the Driftless Area Restoration Effort. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Driftless Area Restoration Effort, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "52274d4ce4b01904cf5a81e0",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52274d4ce4b01904cf5a81e0/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Official Recognized Boundary of Desert Fish Habitat Partnership, 2013",
+          "description": "This shapefile is the official boundary of the Desert Fish Habitat Partnership. The boundary was originally developed by the United States Fish and Wildlife Service and was updated in 2013 to reflect revisions from the Desert Fish Habitat Partnership, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "52274ef2e4b01904cf5a81f3",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52274ef2e4b01904cf5a81f3/MapServer"
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Simplified Boundary of Eastern Brook Trout Joint Venture,2013",
+          "description": "This shapefile is the simplified boundary of the Eastern Brook Trout Joint Venture. The boundary was developed by the the Eastern Brook Trout Joint Venture, a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership.",
+          "id": "52e80fabe4b00ae347ff0e85",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e80fabe4b00ae347ff0e85/MapServer"
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "homeCamera": {
+    "south": 55,
+    "west": -175,
+    "north": 72,
+    "east": -135
+  },
+  "initialViewerMode": "2d"
+}
